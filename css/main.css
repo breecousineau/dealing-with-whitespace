@@ -1,9 +1,23 @@
 html {
   box-sizing: border-box;
+  line-height: 1.3;
+  color: #222;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+header p {
+  font-style: italic;
+}
+
+blockquote {
+  color: #999;
 }
