@@ -17,12 +17,16 @@ body {
   padding-right: 1rem;
 }
 
-h1 {
+article h1 {
   font-weight: normal;
   font-size: 1.5rem;
 }
 
-header p {
+article header {
+  line-height: normal;
+}
+
+article header p {
   font-style: italic;
 }
 
@@ -33,4 +37,8 @@ blockquote {
 
 .quote {
 
+}
+
+article ol {
+  margin: auto;
 }
