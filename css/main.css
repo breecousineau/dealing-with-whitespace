@@ -13,8 +13,11 @@ html {
 body {
   margin: 1em;
   color: #222;
-  padding-left: 1em;
-  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+article {
+  border-bottom: 1px solid #999;
 }
 
 article h1 {
@@ -28,6 +31,8 @@ article header {
 
 article header p {
   font-style: italic;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #999;
 }
 
 blockquote {
@@ -35,10 +40,6 @@ blockquote {
   color: #555;
 }
 
-.quote {
-
-}
-
 article ol {
-  margin: auto;
+  margin-right: inherit;
 }
