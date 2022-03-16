@@ -11,13 +11,16 @@ html {
 }
 
 body {
-  margin: 1em;
+  margin: 0;
   color: #222;
   padding-bottom: 1rem;
 }
 
 article {
   border-bottom: 1px solid #999;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
 }
 
 article h1 {
@@ -27,6 +30,10 @@ article h1 {
 
 article header {
   line-height: normal;
+}
+
+article p {
+
 }
 
 article header p {
@@ -45,5 +52,5 @@ blockquote {
 }
 
 article ol {
-  margin-right: inherit;
+  margin-left: 0;
 }
